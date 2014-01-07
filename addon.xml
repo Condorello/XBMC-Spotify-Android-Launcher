@@ -2,12 +2,12 @@
 <addon id="plugin.program.com.spotify.mobile.android.ui"
   name="Spotify"
   version="1.0" 
-  provider-name="Nusku Networks">
+  provider-name="Hessius">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
-    <provides>video</provides>
+    <provides>music</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>android</platform>
