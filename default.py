@@ -1,6 +1,6 @@
 import xbmc, xbmcaddon
 
-addon = xbmcaddon.Addon(id='plugin.program.com.netflix.mediaclient')
+addon = xbmcaddon.Addon(id='plugin.program.com.spotify.mobile.android.ui')
 
 # Addon Constants
 __addon__      = xbmcaddon.Addon()
@@ -12,4 +12,4 @@ __version__    = __addon__.getAddonInfo('version')
 __language__   = __addon__.getLocalizedString
 
 if ( __name__ == "__main__" ):
-	xbmc.executebuiltin('XBMC.StartAndroidActivity("com.netflix.mediaclient")')
+	xbmc.executebuiltin('XBMC.StartAndroidActivity("com.spotify.mobile.android.ui")')
