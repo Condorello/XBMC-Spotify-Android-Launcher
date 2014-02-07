@@ -1,6 +1,6 @@
 import xbmc, xbmcaddon
 
-addon = xbmcaddon.Addon(id='plugin.program.com.spotify.mobile.android.ui')
+addon = xbmcaddon.Addon(id='plugin.program.com.spotify.mobile.android.ui/.Launcher')
 
 # Addon Constants
 __addon__      = xbmcaddon.Addon()
